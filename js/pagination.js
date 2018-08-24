@@ -63,7 +63,6 @@ Vue.component('pagination', {
     },
     changePage: function (page, event) {
       this.$emit('page-changed', page)
-      return false
     }
   }
 })
