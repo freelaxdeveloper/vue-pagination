@@ -62,8 +62,6 @@ Vue.component('pagination', {
       return this.current < this.totalPages
     },
     changePage: function (page, event) {
-      console.log('event', event)
-      console.log('page', page)
       this.$emit('page-changed', page)
       return false
     }
